@@ -10,6 +10,13 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <button class="audio-toggle" id="audioToggle" title="Toggle music" aria-label="Toggle background music">🔊</button>
+  
+  <audio id="bgAudio" loop>
+    <source src="assets/audio/Yellow.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <main>
     <div id="gate" class="card fade">
       <p class="lead">This space is just for you.</p>
