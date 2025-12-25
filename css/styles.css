@@ -521,7 +521,10 @@ footer small {
     transform-origin: top center;
   }
   .page {
-    min-height: 207px;
+    height: 207px;
+  }
+  .cover {
+    height: 207px;
   }
   .book-header {
     flex-direction: column;
