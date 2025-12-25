@@ -116,6 +116,8 @@ h2:before {
   content: "✦";
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--accent);
   font-size: 1.2rem;
 }
@@ -201,6 +203,25 @@ section p { margin: 8px 0 16px; }
   z-index: 1;
   line-height: 30px;
   margin: 0;
+}
+
+/* Home notepad doodle (shortcake) */
+.home-doodle {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  z-index: 1;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+.home-doodle:before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('../assets/images/shortcake.svg') center/contain no-repeat;
 }
 
 /* Floral paper (pastel yellow with brown lines & doodles) */
