@@ -97,6 +97,57 @@ main {
   font-size: .95rem;
 }
 
+/* Gate / Password page styling */
+.gate-card {
+  max-width: 420px;
+  text-align: center;
+  padding: 48px 32px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.gate-header {
+  margin-bottom: 32px;
+}
+
+.bongo-cat {
+  width: 120px;
+  height: 120px;
+  display: block;
+  position: absolute;
+  top: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+@keyframes bongo-bob {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-12px); }
+}
+
+.gate-flourish {
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-bottom: 16px;
+  letter-spacing: 8px;
+}
+
+.gate-title {
+  margin: 0 0 8px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #8f9779;
+  line-height: 1.2;
+}
+
+.gate-subtitle {
+  margin: 8px 0 0;
+  font-size: 1.05rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
 h1 { 
   margin: 0 0 12px; 
   font-weight: 600; 
